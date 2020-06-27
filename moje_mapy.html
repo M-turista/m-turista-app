@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<h1 style="font-size: 25px; color: green">
+podivejte se na moje mapy
+</h1>
+v mich mapach mam ulozenich vsechny navstivena mista. vice podrobnosti zadejte u michala. kontakt: noemiamisa@gmail.com
+<a href="https://login.szn.cz/">napsat my mail</a>
+https://login.szn.cz/
+<h2>Comments</h2>
+<div id="comments">
+</div>
+<textarea id="comment" rows="5" cols="50">
+</textarea>
+<button id="saveBtn">Save</button>
+<div id="mujDiv"></div>
+</body>
+
+
+
+<script type="text/javascript">
+	$('#saveBtn').click(function() {
+		var promenna = $('#comment').val();
+		$('#comments').text("You comment: " + promenna);
+		alert('zprava odeslana');
+	})
+</script>
+

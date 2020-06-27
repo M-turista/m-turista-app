@@ -1,0 +1,62 @@
+<html>
+<head>
+ <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h1 style="font-size: 40px; color: blue">
+		Vítejte. na této zkušební webové stránce.
+
+	</h1>
+	<div style="float: right">
+			<img src="file:///C:\Users\Host\Pictures\DSC_0649.JPG" style="width: 500px">
+	</div>
+	<button style="font-size: 50px; margin: 20px; color: green" onclick="window.location='https://plzenskikraj.webnode.cz/?_ga=2.164969023.1070295913.1581006781-145974063.1576499129'">
+	go to no script web
+</button>
+power by gábi a míša
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<a href="https://www.youtube.com/channel/UCXdTgvQXRyPAmUMfsIq-JEg">my youtube canal</a>
+<h2 style="font-size: 100px; margin:10px; color:green">nashledanou</h2>
+<h2>Comments</h2>
+<div id="comments">
+</div>
+<textarea id="comment" rows="5" cols="50">
+</textarea>
+<button id="saveBtn">Save</button>
+<div id="mujDiv"></div>
+</body>
+
+
+
+<script type="text/javascript">
+	$('#saveBtn').click(function() {
+		var promenna = $('#comment').val();
+		$('#comments').text("You comment: " + promenna);
+		alert('zprava odeslana');
+	})
+</script>
+
+<style type="text/css">
+	
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+#mujDiv {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: infinite;
+}
+</style>
+
+
+
+</html>
